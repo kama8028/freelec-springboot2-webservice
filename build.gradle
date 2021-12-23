@@ -32,6 +32,7 @@ dependencies {
     //인메모리용 관계형 데이터베이스(h2)
     //메모리에서 실행되기 때문에 애플리케이션을 재시작할 때마다 초기화 된다는 점을 이용하여 테스트 용도로 많이 사용됨
     compile('com.h2database:h2')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
