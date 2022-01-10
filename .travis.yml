@@ -4,9 +4,12 @@ jdk:
 
 branches:
   only:
-    -master
+    - master
 
-# Travis CI 서버의 Home
+before_install:
+  - chmod +x grandlew
+
+# Travis CI 서버의 Home directories
 cache:
   directories:
     - '$HOME/.m2/repository'
