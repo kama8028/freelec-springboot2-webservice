@@ -39,14 +39,12 @@ deploy:
     key: freelec-springboot2-webservice.zip #빌드파일을 압축해서 전달
     bundle_type: zip #압축 확장자
     application: freelec-springboot2-webservice
-    group: freelec-springboot2-webservice-group #웹콘솔에서 입력한 CodeDeploy 그룹
+    deployment_group: freelec-springboot2-webservice-group #웹콘솔에서 입력한 CodeDeploy 그룹
     region: ap-northeast-2
     wait-until-deployed: true
-
-
 
 # CI 실행 완료시 메일로 알람
 notifications:
   email:
     recipients:
-      - kama8028@gmail.com
+      - kama8028@naver.com
