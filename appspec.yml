@@ -26,6 +26,3 @@ hooks:
     - location: health.sh # 새 스프링 부트가 정상적으로 실행됐는지 확인합니다.
       timeout: 60
       runas: ec2-user
-
-
-
